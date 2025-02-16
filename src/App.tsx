@@ -1,11 +1,9 @@
-import { ConnectButton } from "@rainbow-me/rainbowkit";
-import MintForm from "./utils/Form/MintForm";
+import Navbar from "./components/navbar/Navbar";
 
 export default function App() {
   return (
     <div>
-      <ConnectButton chainStatus={"icon"} />
-      <MintForm />
+      <Navbar />
     </div>
   );
 }
